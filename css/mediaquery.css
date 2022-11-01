@@ -1,0 +1,155 @@
+@media (max-width: 1245px) {
+    #nav1 div{
+        font-size: 23px;;
+    }
+    #nav1 li a{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 1165px) {
+    #nav1 div{
+        padding-left: 50px;
+        width: 35%;
+    }
+
+
+    #nav1 ul{
+        padding-left: 0;
+        width: 65%
+    }
+    #both #div1{
+        width: 60%
+    }
+    #both #img{
+        width: 40%;
+    }
+}
+
+@media (max-width: 1066px) {
+    #nav1{
+        padding: 0;
+    }
+
+    #nav1 div{
+        float: none;
+        width: 100%;
+        /* padding-left: 0; */
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    #nav1 ul{
+        float: none;
+        width: 100%;
+        padding-left: 0;
+        /* text-align: right; */
+        /* padding: 0 30px; */
+        margin-top: 10px;
+        text-align: center;
+
+    }
+    #nav1 ul li{
+        float: none;
+        display: inline-block;
+    }
+}
+    
+    @media (max-width: 1045px) {
+        #both #div1{
+            width: 100%;
+            padding: 0;
+            text-align: center;
+            margin-top: 40px;
+        }
+        #img{
+            float: none;
+            width: 100%;
+            text-align: center;
+            /* padding-left: 80px; */
+            margin-top: 40px;
+        }
+        #sec1{
+            height: 900px;
+        }
+    }
+
+
+
+
+
+
+
+@media (max-width: 805px) {
+
+    #nav1 ul li{
+        display: block;
+        padding: 20px;
+    }
+    #nav1 ul{
+        text-align: center;
+    }
+    #sec1 #nav1{
+        background-color: black;
+        padding: 20px 0;
+    }
+    #sec1{
+        height: 1200px;
+    }
+}
+
+@media (max-width: 650px) {
+    #nav2 ul{
+        display: block;
+        /* float: none; */
+    }
+    #nav2 ul li{
+        display: block;
+        padding: 20px 0
+        /* padding-bottom: 20px; */
+    }
+    #nav2 ul #book{
+        margin-bottom: 20px; 
+    }
+    #sec1{
+        height: 1400px;
+        margin: 100px;
+    }
+
+}
+
+@media (max-width: 530px) {
+    #sec1{
+        margin: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    #sec1{
+        margin: 50px;
+    }
+}
+
+@media (max-width: 420px) {
+    #sec1{
+        margin: 30px;
+    }
+}
+
+@media (max-width: 390px) {
+    #sec1{
+        margin: 15px;
+        height: 1425px;
+    }
+}
+
+@media (max-width: 350px) {
+    #sec1{
+        margin: 0px;
+
+    }
+    #sec1 #img{
+        width: 10%;
+    }
+}

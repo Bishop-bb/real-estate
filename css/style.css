@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL SECTION */
+#sec1 {
+    background-color: rgb(32, 37, 57);
+    margin: 125px;
+    border-radius: 20px;
+    /* width: 80% */
+    height: 500px;
+}
+#nav1{
+    padding: 40px 0;
+
+}
+#nav1 div{
+    float: left;
+    width: 40%;
+    padding-left: 80px;
+    font-size: 25px;
+    color: white;
+
+}
+
+#nav1 ul{
+    float: right;
+    width: 60%;
+    padding-left: 20px;
+
+
+}
+
+#nav1 ul li{
+    float: left;
+    list-style-type: none;
+    padding: 0 15px;
+}
+#nav1 li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+#nav1 a:hover{
+    color: brown;
+}
+
+
+.contact a{
+    /* padding: 5px 0; */
+    /* display: block; */
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+
+
+
+#div1{
+    float: left;
+    width: 50%;
+}
+
+
+
+
+
+
+#nav1 {
+    margin-bottom: 20px;
+}
+#both #div1{
+    float: left;
+    width: 65%
+}
+
+#div1{
+    padding-left: 80px;
+}
+
+#div1 h1{
+    font-size: 50px;
+    color: white;
+}
+#div1 h2{
+    font-size: 55px;
+    margin-top: -10px;
+    color: white;
+}
+#div1 sup{
+    font-size: 25px
+}
+#div1 h3{
+    font-size: 60px;
+    padding-left: 40px;
+    margin-top: -10px;
+    color: white;
+}
+#div1 .low{
+    font-size: 35px;
+}
+#div1 p{
+    padding: 10px 0;
+    color: #9ba49e;
+}
+#div1 #agent{
+    color: white;
+}
+#div1 span{
+    color: #9ba49e;
+    padding-left: 30px;
+}
+#div1 .agent{
+    padding-right: 10px;
+    font-size: 20px;
+    /* margin-top: 10px; */
+    color: brown;
+}
+
+#nav2{
+    /* background-color: #6663624f;
+    display: inline-block; */
+    
+}
+#nav2 ul{
+    margin-top: 20px;
+    background-color: #6663624f;
+    display: inline-block;
+    /* background-color: #666362; */
+    /* background-color: #b2beb5; */
+    /* background-color: #9ba49e; */
+    /* background-color: #6663624f; */
+    border-radius: 20px;
+    display: inline-block;
+    /* padding: 20px 0; */
+}
+#nav2 ul li{
+    display: inline-block;
+    list-style-type: none;
+    /* background-color: #6663624f; */
+    
+}
+#nav2 a{
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 18px;
+    color: #9ba49e;
+    
+}
+#nav2 ul #book{
+    border: 1px solid white;
+    /* padding: 10px 0 */
+    /* overflow: hidden; */
+    display: inline-block;
+    padding: 20px 0;
+    background-color: brown;
+    border-radius: 20px;
+
+}
+#nav2 a:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#both #img{
+    float: left;
+    width: 35%;
+}
+
